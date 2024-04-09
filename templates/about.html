@@ -1,15 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {% if title %}
-    <title>Blog App - {{title}}</title>
-    {% else %}
-        <title>Blog App</title>
-    {% endif %}
-</head>
-<body>
-    <h3>Where literature meets life</h3>
-</body>
-</html>
+{% extends "layout.html" %}
+{% block content%} 
+    <h3>About page</h3>
+{% endblock content %}
+
+
